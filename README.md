@@ -20,3 +20,6 @@
  * Az928 - Main Developer. (retired)
  
  * xXNiceYT - Update Plugin API More.
+
+# Bugs
+- [ ] Enchantment not working
