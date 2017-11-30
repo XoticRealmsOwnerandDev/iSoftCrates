@@ -24,6 +24,3 @@ Download [**here**](https://poggit.pmmp.io/ci/xXNiceAssasinl0/iSoftCrates/iSoftC
  * Az928 - Main Developer. (retired)
  
  * xXNiceYT - Update Plugin API More.
-
-# Bugs
-- [ ] Enchantment not working
