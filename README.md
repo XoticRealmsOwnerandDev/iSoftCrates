@@ -1,3 +1,7 @@
+Download Phar:
+Download [**here**](https://poggit.pmmp.io/ci/xXNiceAssasinl0/iSoftCrates/iSoftCrates)
+
+
 # Features
 
 - [x] Broadcast Message on open Crate.
