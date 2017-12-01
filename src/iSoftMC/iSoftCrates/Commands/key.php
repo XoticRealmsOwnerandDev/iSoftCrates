@@ -21,13 +21,13 @@ class key extends Command{
     public function execute(CommandSender $sender, string $label, array $args){
             if($sender->hasPermission("isoftcrate.key")){
         $inv = $sender->getInventory();
-        $ordinaryname = Item::get(131,1,1);
+        $normalname = Item::get(131,1,1);
         $rarename = Item::get(131,2,1);
         $mythicname = Item::get(131,3,1);
         $legendaryname = Item::get(131,4,1);
         if (count($args) < 1){
             $sender->sendMessage("§b===>§eKeys§b<===");
-            $sender->sendMessage("§a/key Ordinary §e: §bGet Ordinary key.");
+            $sender->sendMessage("§a/key Normal §e: §bGet Ordinary key.");
             $sender->sendMessage("§c/key Rare §e: §bGet Rare key.");
             $sender->sendMessage("§6/key Mythic §e: §bGet Mythic key.");
             $sender->sendMessage("§9/key Legendary §e: §bGet Legendary key.");
@@ -36,12 +36,12 @@ class key extends Command{
         }
         switch ($args[0]){
             case "1":
-            case "ordinary":
-            case "Ordinary":
-            $ordinaryname->setCustomName("§aOrdinary");
-            $ordinaryname->setLore(["§7Open a §aOrdinary §7Crate"]);
-            $inv->addItem($ordinaryname);
-            $sender->sendMessage("§7(§4§l!§r§7) §eYou receive §aOrdinary §eKey.");
+            case "Normal":
+            case "Normal":
+            $ordinaryname->setCustomName("§aNormal");
+            $ordinaryname->setLore(["§7Open a §aNormal §7Crate"]);
+            $inv->addItem($Normalname);
+            $sender->sendMessage("§7(§4§l!§r§7) §eYou receive §aNormal §eKey.");
             break;
             case "2":
             case "rare":
