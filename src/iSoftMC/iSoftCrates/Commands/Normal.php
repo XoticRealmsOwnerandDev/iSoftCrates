@@ -28,8 +28,8 @@ class ordinary extends Command{
 
     public function __construct($name, Main $main){
         $this->main = $main;
-        parent::__construct("ordinary");
-        $this->setDescription("Open ordinary crate!");
+        parent::__construct("Normal");
+        $this->setDescription("Open Normal crate!");
     }
 
     public function getMain(){
@@ -50,7 +50,7 @@ class ordinary extends Command{
 			$level->addSound(new EndermanTeleportSound($pos1));
 			$level->addParticle(new LavaParticle($pos1));
 			$inv->removeItem(Item::get(131,1,1));
-			$this->getMain()->getServer()->broadcastMessage("§eName: §f$name, §bJust opened §aOrdinary §bCrate!");
+			$this->getMain()->getServer()->broadcastMessage("§eName: §f$name, §bJust opened §aNormal §bCrate!");
 			$result = rand(1,3);
 			     switch($result){
 		case 1:
@@ -67,7 +67,7 @@ class ordinary extends Command{
 		     break;
 			     }
 		}else{
-			$sender->sendMessage("§7[§ciSoftCrates§7]§f You need a §aOrdinary§f key.");
+			$sender->sendMessage("§7[§ciSoftCrates§7]§f You need a §aNormal§f key.");
 		}
 
 	}else{
