@@ -21,7 +21,7 @@ class Main extends PluginBase{
         $this->getServer()->getCommandMap()->register("key", new key("key", $this));
         $this->getServer()->getCommandMap()->register("legendary", new legendary("legendary", $this));
         $this->getServer()->getCommandMap()->register("mythic", new mythic("mythic", $this));
-        $this->getServer()->getCommandMap()->register("ordinary", new ordinary("ordinary", $this));
+        $this->getServer()->getCommandMap()->register("normal", new normal("normal", $this));
         $this->getServer()->getCommandMap()->register("rare", new rare("rare", $this));
         $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
         $this->getLogger()->info("§aEnabled successfully!");
