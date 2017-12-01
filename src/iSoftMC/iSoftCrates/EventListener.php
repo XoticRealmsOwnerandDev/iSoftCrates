@@ -1,6 +1,6 @@
 <?php
 
-namespace iSoftMC\iSoftCrates;
+namespace iSoftMC/iSoftCrates;
 
 use pocketmine\Player;
 use pocketmine\Server;
