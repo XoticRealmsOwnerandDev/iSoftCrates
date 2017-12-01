@@ -14,7 +14,7 @@ class crates extends Command{
     
     public function execute(CommandSender $sender, string $label, array $args){
         $sender->sendMessage("§b===>§eCrates§b<===");
-        $sender->sendMessage("§a/ordinary : open legendary crate.");
+        $sender->sendMessage("§a/Normal : open Normal crate.");
         $sender->sendMessage("§a/rare : open rare crate.");
         $sender->sendMessage("§a/mythic : open mythic crate.");
         $sender->sendMessage("§a/legendary : open legendary crate.");
