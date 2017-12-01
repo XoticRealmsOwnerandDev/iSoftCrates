@@ -14,7 +14,7 @@ use iSoftMC\iSoftCrates\Commands\mythic;
 use iSoftMC\iSoftCrates\Commands\ordinary;
 use iSoftMC\iSoftCrates\Commands\rare;
 
-class Main extends PluginBase{
+class Main extends PluginBase  {
 
     public function onEnable(){
         $this->getServer()->getCommandMap()->register("crates", new crates("crates", $this));
